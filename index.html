@@ -20,28 +20,28 @@
 
   <body>
     <!-- header inizio -->
-    <header class="vh-100 d-flex align-items-center">
-        <div class="container">
-            <!-- prima row -->
+    <header class="header-height text-center text-sm-start">
+        <div class="container padding-header">
+            <!-- titolo -->
             <div class="row">
-                <div class="col-6">
-                    <h1 class="text-white text-capitalize">
+                <div class="col-12 col-xl-6">
+                    <h1 class="text-white text-capitalize fw-bolder">
                         lorem ipsum
                     </h1>
                 </div>
             </div>
-            <!-- seconda row -->
-            <div class="row">
-                <div class="col-6">
+            <!-- sottotitolo -->
+            <div class="row mb-3">
+                <div class="col-12 col-md-6">
                     <h2 class="text-white fw-light fs-4">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorum est perferendis ipsum amet?
                     </h2>
                 </div>
             </div>
-            <!-- terza row -->
-            <div class="row">
-                <div class="col-6">
-                    <button class="btn text-uppercase rounded-0 bg-warning">
+            <!-- button -->
+            <div class="row pt-3">
+                <div class="col-12">
+                    <button class="btn text-uppercase rounded-0 bg-warning px-5">
                         more
                     </button>
                 </div>
@@ -51,21 +51,24 @@
     <!-- header fine -->
 
     <!-- intro inizio -->
-    <div class="container-fluid position-relative px-0 mt-5">
-        <div class="col-6 mx-auto position-relative z-2">
-            <h2 class="text-center">
-                lorem ipsum
-            </h2>
-            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi sit fugiat iste esse suscipit sequi pariatur. repellendus molestiae optio praesentium recusandae veniam non exercitationem, consequatur veritatis fuga nesciunt cum dolore?</p>
-        </div>
+    <div class="container-fluid px-0 pb-1 pb-lg-2 pb-xl-4">
         <!-- sfondo waves -->
-        <img src="media/wave2.svg" alt="onda bianca" class="img-fluid position-absolute wave-white z-1">
-        <img src="media/wave1.svg" alt="onda grigia" class="img-fluid position-absolute wave-gray z-0">
+        <div class="col-12 position-relative">
+            <img src="media/wave1.svg" alt="onda grigia" class="position-absolute bottom-0 mb-3">        
+            <img src="media/wave2.svg" alt="onda bianca" class="position-absolute bottom-0">
+        </div>
+        <!-- quote -->
+        <div class="col-12 col-md-8 col-lg-6 mx-auto px-5 px-md-0">
+            <h3 class="text-center mb-3">
+                lorem ipsum <br> dolor sit
+            </h3>
+            <p class="text-center mt-3 mb-5 lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi sit fugiat iste esse suscipit sequi pariatur. repellendus molestiae optio praesentium recusandae veniam non exercitationem, consequatur veritatis fuga nesciunt cum dolore?</p>
+        </div>
     </div>
     <!-- intro fine -->
 
     <!-- section cards inizio -->
-    <div class="container">
+    <div class="container mt-5">
         <div class="row text-white mx-2 mx-sm-0">
             <!-- prima card -->
             <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-5 p-0 pe-md-2">

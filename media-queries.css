@@ -1,0 +1,22 @@
+/* schermi < sm */
+
+@media screen and (max-width: 576px) {
+    .header-height {
+        height: 70vh;
+    }
+}
+
+/* schermi < md */
+
+@media screen and (max-width: 768px) {
+    .header-height {
+        height: 80vh;
+    }
+}
+/* schermi < lg */
+
+@media screen and (max-width: 992px) {
+    .header-height {
+        height: 90vh;
+    }
+}

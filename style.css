@@ -9,7 +9,15 @@ h1, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 /* header */
@@ -18,14 +26,12 @@ header {
     background-image: url(media/header.jpg);
 }
 
-/* intro */
-
-.wave-gray {
-    bottom: 80%;
+.padding-header {
+    padding-top: 150px;
 }
 
-.wave-white {
-    bottom: 60%;
+.header-height {
+    height: 100vh;
 }
 
 /* cards */
