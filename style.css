@@ -1,0 +1,75 @@
+/* font */
+
+p h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: "Righteous", sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+/* header */
+
+header {
+    background-image: url(media/header.jpg);
+}
+
+/* intro */
+
+.wave-gray {
+    bottom: 80%;
+}
+
+.wave-white {
+    bottom: 60%;
+}
+
+/* cards */
+
+.slot-uno {
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url('media/1.png');
+}
+
+.slot-due {
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url('media/2.png');
+}
+
+.slot-tre {
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url('media/3.png');
+}
+
+.slot-quattro {
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url('media/4.png');
+}
+
+/* timeline */
+
+.circle-item-uno::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 20px);
+}
+
+.circle-item-due::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: calc(50% - 20px);
+}
